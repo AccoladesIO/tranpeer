@@ -2,7 +2,7 @@
 
 The `tranpeer` CLI tool handles translation of sentences in English language to any other language provided by the [Google translate API](https://cloud.google.com/translate/docs/languages) for you in your terminal.
 
-## Get sarted:
+## Get started:
 
 To install the CLI tool on your machine:
 
