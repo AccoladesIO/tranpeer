@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "node prepublish.js && tsc",
+    "prepublishOnly": "node prepublish.js",
     "release": "cross-env RELEASE_MODE=true np --no-tests"
   },
   "keywords": [],
