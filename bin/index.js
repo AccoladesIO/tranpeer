@@ -9,7 +9,7 @@ import chalk from "chalk";
 /**
  * Changes:
  * 1. Used async/await for better readability and error handling.
- * 2. Added default language (`en`) if none is provided.
+ * 2. Added default language (`pt`) if none is provided.
  * 3. Improved error handling with specific messages.
  * 4. Added examples to the CLI usage.
  * 5. Validated input arguments (non-empty strings).
