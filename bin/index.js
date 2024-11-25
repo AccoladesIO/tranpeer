@@ -1,19 +1,18 @@
 #!/usr/bin/env node
-import boxen from "boxen"; 
-import { translate } from "@vitalets/google-translate-api"; 
-import yargs from "yargs"; 
-import { hideBin } from "yargs/helpers"; 
-import figlet from "figlet"; 
-import chalk from "chalk"; 
+import boxen from "boxen";
+import { translate } from "@vitalets/google-translate-api";
+import yargs from "yargs";
+import { hideBin } from "yargs/helpers";
+import figlet from "figlet";
+import chalk from "chalk";
 
 /**
  * Changes:
  * 1. Used async/await for better readability and error handling.
- * 2. Added default language (`pt`) if none is provided.
- * 3. Improved error handling with specific messages.
- * 4. Added examples to the CLI usage.
- * 5. Validated input arguments (non-empty strings).
- * 6. Organized code for better readability and maintainability.
+ * 2. Improved error handling with specific messages.
+ * 3. Added examples to the CLI usage.
+ * 4. Validated input arguments (non-empty strings).
+ * 5. Organized code for better readability and maintainability.
  */
 
 
@@ -35,7 +34,7 @@ const yargsInstance = yargs(hideBin(process.argv))
   .usage(usage)
   .option("l", {
     alias: "language",
-    describe: "Translate to language (default: en)",
+    describe: "Translate to language",
     type: "string",
     demandOption: false,
   })
