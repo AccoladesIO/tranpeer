@@ -20,6 +20,7 @@
     "boxen": "^8.0.1",
     "chalk": "^5.3.0",
     "figlet": "^1.8.0",
+    "tranpeer": "^2.1.0",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
